@@ -11,7 +11,7 @@ RUN corepack enable pnpm && pnpm install
 # Copy the rest of your app's source code
 COPY . .
 
-# Expose the port the app runs on
+# Expose the port 
 EXPOSE 5173
 
 # Production image
